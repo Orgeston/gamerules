@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <entry id="nshredder">
+    <name>Neural Shredder</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="psykerstaff">
+    <name>Psyker Staff</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>2</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>15</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+</root>

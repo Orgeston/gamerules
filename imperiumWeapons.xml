@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!--Bolt Weapons-->
+  
+  <entry id="bpistol">
+    <name>Bolt Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>6</range>
+      <penetration>4</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="bgun">
+    <name>Bolter</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>12</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="bheavy">
+    <name>Heavy Bolter</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>16</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>40</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="bstorm">
+    <name>Storm Bolter</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>12</range>
+      <penetration>4</penetration>
+      <accuracy>4</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="bstalker">
+    <name>Bolter</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>32</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Flame Weapons-->
+  
+  <entry id="fpistol">
+    <name>Flame Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>6</range>
+      <penetration>2</penetration>
+      <accuracy>8</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>flame;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="fgun">
+    <name>Flamer</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>1</range>
+      <penetration>2</penetration>
+      <accuracy>8</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules>flame;volatile;template;</specialrules>
+    </rules>
+  </entry>
+  <entry id="fheavy">
+    <name>Heavy Flamer</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>1</range>
+      <penetration>3</penetration>
+      <accuracy>8</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>30</weight>
+      <hands>2</hands>
+      <specialrules>flame;volatile;template;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Plasma Weapons-->
+  
+  <entry id="ppistol">
+    <name>Plasma Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>6</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="pgun">
+    <name>Plasma Gun</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>12</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="pheavy">
+    <name>Plasma Cannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>7</power>
+      <range>24</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Melta Weapons-->
+  
+  <!--Grav Weapons-->
+  
+  <entry id="mpistol">
+    <name>Inferno Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>999</range>
+      <penetration>999</penetration>
+      <accuracy>5</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>melta;</specialrules>
+    </rules>
+  </entry>
+  <entry id="mgun">
+    <name>Melta Gun</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>16</power>
+      <range>999</range>
+      <penetration>999</penetration>
+      <accuracy>6</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules>melta;</specialrules>
+    </rules>
+  </entry>
+  <entry id="mheavy">
+    <name>Multi-Melta</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>32</power>
+      <range>999</range>
+      <penetration>999</penetration>
+      <accuracy>6</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules>melta;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Auto Weapons-->
+  
+  <entry id="apistol">
+    <name>Auto Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <range>6</range>
+      <penetration>4</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="agun">
+    <name>Autogun</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <range>12</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="aheavy">
+    <name>Autocannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>16</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>40</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Stub Weapons-->
+  
+  <!--Shot Weapons-->
+  
+  <!--Laser Weapons-->
+  
+  <entry id="lpistol">
+    <name>Laspistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <range>6</range>
+      <penetration>4</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="lgun">
+    <name>Lasgungun</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <range>12</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="lheavy">
+    <name>Lascannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>16</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>40</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="lmulti">
+    <name>Multilaser</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>16</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>40</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Bow Weapons-->
+  
+  <!--Web Weapons-->
+  
+  <!--Helfrost Weapons-->
+  
+  <!--Needle Weapons-->
+  
+  <!--Projectile Launchers-->
+  
+  <!--Chain Weapons-->
+  
+  <entry id="csword">
+    <name>Chain Sword</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>2</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>15</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Power Weapons-->
+  
+  <entry id="psword">
+    <name>Power Sword</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>6</power>
+      <range>2</range>
+      <penetration>6</penetration>
+      <accuracy>5</accuracy>
+      <rate>3</rate>
+      <duration>3</duration>
+      <weight>15</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="pfist">
+    <name>Power Fist</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>2</range>
+      <penetration>6</penetration>
+      <accuracy>5</accuracy>
+      <rate>1</rate>
+      <duration>2</duration>
+      <weight>15</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+</root>

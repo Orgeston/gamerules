@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  
+  <!--Infantry-->
+  
+  <entry id="serf">
+    <name>Serf</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>2</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="servitor">
+    <name>Servitor</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>1</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="robot">
+    <name>Robot</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>3</armor>
+      <speed>4</speed>
+      <will>0</will>
+      <hands>2</hands>
+      <size>3</size>
+      <lift>50</lift>
+      <wounds>2</wounds>
+      <specialrules>Slave</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="penitent">
+    <name>Penitent</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>1</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers>noguns</modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="assassin">
+    <name>Assassin</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>6</power>
+      <durability>5</durability>
+      <armor>3</armor>
+      <speed>8</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>40</lift>
+      <wounds>1</wounds>
+      <specialrules>assassin;</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons>nshredder</weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="guardTroop">
+    <name>Guardsman</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="mechTroop">
+    <name>Skitarii</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="marineTroop">
+    <name>Space Marine</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>4</armor>
+      <speed>6</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>40</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="apothecary">
+    <name>Apothecary</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>4</armor>
+      <speed>6</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>40</lift>
+      <wounds>1</wounds>
+      <specialrules>Implements of the Apothecary</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="sisTroop">
+    <name>Battle Sister</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="ratTroop">
+    <name>Ratling</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>3</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>1</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="ogrTroop">
+    <name>Ogryn</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>6</power>
+      <durability>6</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>3</will>
+      <hands>2</hands>
+      <size>3</size>
+      <lift>60</lift>
+      <wounds>2</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="psykTroop">
+    <name>Sanctioned Psyker</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons>psykstaff</weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="mechElite">
+    <name>Skitarii</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="guardCrew">
+    <name>Crew</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="mechCrew">
+    <name>Tank Thrall</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="marineCrew">
+    <name>Astartes Crew</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>4</armor>
+      <speed>6</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>40</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+  <entry id="sisCrew">
+    <name>Crew Sister</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="0"></squad>
+  </entry>
+
+  <!--Squad Leaders-->
+  
+  <entry id="guardSgt">
+    <name>Sergeant</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">guardTroop</squad>
+  </entry>
+  <entry id="mechSgt">
+    <name>Alpha</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">mechTroop;</squad>
+  </entry>
+  <entry id="marineSgt">
+    <name>Sergeant</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">marineTroop;</squad>
+  </entry>
+  <entry id="marineChap">
+    <name>Chaplain</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules>Implements of the Emperor</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">marineTroop</squad>
+  </entry>
+  <entry id="sisSgt">
+    <name>Sister Superior</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>5</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">sisTroop</squad>
+  </entry>
+  <entry id="ogrSgt">
+    <name>Bone Head</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>6</power>
+      <durability>6</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>3</size>
+      <lift>60</lift>
+      <wounds>2</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="9">ogrTroop</squad>
+  </entry>
+  <entry id="ratSgt">
+    <name>Ratling Sergeant</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>3</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>1</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">ratTroop</squad>
+  </entry>
+  <entry id="psykSgt">
+    <name>Sanctioned Psyker</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons>psykstaff</weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="4">psykTroop</squad>
+  </entry>
+  <entry id="guardHvywep">
+    <name>Weapon Team Leader</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules>Crew Leader</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">serf;guardTroop;ogrTroop;</squad>
+  </entry>
+  <entry id="mechHvywep">
+    <name>Alpha Gunner</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>35</lift>
+      <wounds>1</wounds>
+      <specialrules>Crew Leader</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">serf;mechTroop;servitor;</squad>
+  </entry>
+  <entry id="guardPilot">
+    <name>Pilot</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">guardCrew</squad>
+  </entry>
+  <entry id="mechPilot">
+    <name>Pilot</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">mechCrew</squad>
+  </entry>
+  <entry id="marinePilot">
+    <name>Pilot</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">marineCrew</squad>
+  </entry>
+  <entry id="sisPilot">
+    <name>Pilot</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">sisCrew</squad>
+  </entry>
+  <entry id="techpriest">
+    <name>Tech Priest</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules>Implements of the Omnissiah;</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear>Repair Points</gear>
+    <subordinate></subordinate>
+    <squad maximum="5">servitor;serf;robot;mechTroop;</squad>
+  </entry>
+  <entry id="techmarine">
+    <name>Techmarine</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules>Implements of the Omnissiah;</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear>Repair Points</gear>
+    <subordinate></subordinate>
+    <squad maximum="5">servitor;robot;</squad>
+  </entry>
+  <entry id="priest">
+    <name>Ecclesiastic Priest</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>4</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="5">penitent;serf;guardTroop;</squad>
+  </entry>
+  
+  <!--Platoon Leaders-->
+  
+  <entry id="guardLt">
+    <name>Lieutenant</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardSgt;ogrSgt;ratSgt;guardHvywep;</subordinate>
+    <squad maximum="5">guardTroop;ratTroop;ogrTroop;psykTroop;serf;</squad>
+  </entry>
+  <entry id="commLt">
+    <name>Lieutenant Commissar</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardSgt;ogrSgt;ratSgt;guardHvywep;</subordinate>
+    <squad maximum="5">guardTroop;ratTroop;ogrTroop;psykTroop;serf;</squad>
+  </entry>
+  <entry id="mechLt">
+    <name>Skitarii Lieutenant</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>mechSgt;mechHvywep</subordinate>
+    <squad maximum="5">mechTroop;serf;</squad>
+  </entry>
+  <entry id="sisLt">
+    <name>Canoness Commander</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardCapt;mechCapt;assassin;</subordinate>
+    <squad maximum="10">guardTroop;ratTroop;ogrTroop;sancpsyk;serf;advisor</squad>
+  </entry>
+  <entry id="marineLt">
+    <name>Lieutenant</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardSgt;ogrSgt;ratSgt;heavygunner;</subordinate>
+    <squad maximum="5">guardTroop;ratTroop;ogrTroop;sancpsyk;serf;</squad>
+  </entry>
+  <entry id="guardTankcom">
+    <name>Tank Commander</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules>Vehicle Requisition</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardPilot;</subordinate>
+    <squad maximum="5">guardCrew;</squad>
+  </entry>
+  <entry id="mechTankcom">
+    <name>Tank Commander</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules>Vehicle Requisition</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>mechPilot;</subordinate>
+    <squad maximum="5">mechCrew;</squad>
+  </entry>
+  <entry id="marineTankcom">
+    <name>Tank Commander</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules>Vehicle Requisition</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>marinePilot;</subordinate>
+    <squad maximum="5">marineCrew;</squad>
+  </entry>
+  <entry id="sisTankcom">
+    <name>Tank Commander</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules>Vehicle Requisition</specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>sisPilot;</subordinate>
+    <squad maximum="5">sisCrew;</squad>
+  </entry>
+  
+  <!--Company Leaders-->
+  
+  <entry id="mechCapt">
+    <name>Magos</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>5</will>
+      <hands>2</hands>
+      <size>3</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>techpriest;priest;mechLt;mechTankcom;assassin;</subordinate>
+    <squad maximum="10">serf;servitor;mechTroop;mechElite;robot;</squad>
+  </entry>
+  <entry id="guardCapt">
+    <name>Captain</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>5</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardLt;techpriest;guardTankcom;assassin;</subordinate>
+    <squad maximum="10">guardTroop;ratTroop;ogrTroop;psykTroop;serf;</squad>
+  </entry>
+  <entry id="sisCapt">
+    <name>Canoness Preceptor</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>sisLt;sisTankcom;priest;techpriest;assassin;</subordinate>
+    <squad maximum="10">sisTroop;penitent;serf;</squad>
+  </entry>
+  <entry id="marineCapt">
+    <name>Captain</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>marineLt;marineTankcom;marineChap</subordinate>
+    <squad maximum="10">marineTroop;serf;apothecary;</squad>
+  </entry>
+  
+  <!--Army Leaders-->
+  
+  <entry id="guardGen">
+    <name>General</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardCapt;mechCapt;sisCapt;marineCapt;assassin;</subordinate>
+    <squad maximum="10">guardTroop;ratTroop;ogrTroop;psykTroop;serf;</squad>
+  </entry>
+  <entry id="mechGen">
+    <name>Arch-Magos Dominus</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardCapt;mechCapt;sisCapt;marineCapt;assassin;</subordinate>
+    <squad maximum="10">guardTroop;ratTroop;ogrTroop;sancpsyk;beastman;serf;advisor</squad>
+  </entry>
+  <entry id="marineGen">
+    <name>Chapter Master</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardCapt;mechCapt;sisCapt;marineCapt;assassin;</subordinate>
+    <squad maximum="10">marineTroop;serf;apothecary;</squad>
+  </entry>
+  <entry id="inqGen">
+    <name>Lord Inquisitor</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardCapt;mechCapt;sisCapt;marineCapt;assassin;techpriest;</subordinate>
+    <squad maximum="10">serf;servitor;robot;penitent;assassin;guardTroop;mechTroop;marineTroop;sisTroop;ratTroop;ogrTroop;psykTroop;mechElite;techpriest;</squad>
+  </entry>
+  <entry id="sisGen">
+    <name>Canoness Superior</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>6</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>30</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate>guardCapt;mechCapt;sisCapt;marineCapt;assassin;</subordinate>
+    <squad maximum="10">sisTroop;penitent;serf;</squad>
+  </entry>
+</root>
