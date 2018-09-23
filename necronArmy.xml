@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  
+  <!--Infantry-->
+  
+  <entry id="cronWarrior">
+    <name>Warrior</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>2</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">cronWarrior;</squad>
+  </entry>
+  <entry id="cronPilot">
+    <name>Pilot</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>2</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="4">cronPilot;</squad>
+  </entry>
+  <entry id="cronImmortal">
+    <name>Immortal</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>2</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons>neuralPistol;neuralGun;</weapons>
+    <gear>Venerable Armor;Gravity Displacement Pack;Destroyer Body;Teleporter;</gear>
+    <subordinate></subordinate>
+    <squad maximum="19">cronImmortal</squad>
+  </entry>
+  <entry id="cronPariah">
+    <name>Pariah</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>3</power>
+      <durability>4</durability>
+      <armor>2</armor>
+      <speed>6</speed>
+      <will>2</will>
+      <hands>2</hands>
+      <size>2</size>
+      <lift>25</lift>
+      <wounds>1</wounds>
+      <specialrules></specialrules>
+    </rules>
+    <modifiers></modifiers>
+    <weapons></weapons>
+    <gear></gear>
+    <subordinate></subordinate>
+    <squad maximum="19">cronPariah;</squad>
+  </entry>

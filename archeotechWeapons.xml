@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  
+  <!--Volkite Weapons-->
+  
+  <entry id="volkPistol">
+    <name>Volkite Serpenta</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkGun1">
+      <name>Volkite Charger</name>
+      <cost>
+        <points>0</points>
+        <relic>0</relic>
+      </cost>
+      <rules>
+        <power>8</power>
+        <range>8</range>
+        <penetration>8</penetration>
+        <accuracy>4</accuracy>
+        <rate>1</rate>
+        <duration>3</duration>
+        <weight>10</weight>
+        <hands>2</hands>
+        <specialrules></specialrules>
+      </rules>
+    </entry>
+  <entry id="volkGun2">
+    <name>Volkite Caliver</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkHeavy1">
+    <name>Volkite Blaster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkHeavy2">
+    <name>Volkite Culverin</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Galvanic Weapons-->
+
+  <entry id="galGun1">
+    <name>Galvanic Rifle</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="galGun2">
+    <name>Galvanic Caster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+
+
+  <!--Arc Weapons-->
+
+  <entry id="arcPistol">
+    <name>Arc Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="arcGun">
+    <name>Arc Rifle</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="arcHeavy1">
+    <name>Arc Blaster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="arcHeavy2">
+    <name>Heavy Arc Rifle</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+    
+  <!--Sonic Weapons-->
+
+  <entry id="arcPistol">
+    <name>Volkite Serpenta</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkGun1">
+    <name>Volkite Charger</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkGun2">
+    <name>Volkite Caliver</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkHeavy1">
+    <name>Volkite Blaster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="volkHeavy2">
+    <name>Volkite Culverin</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Plasma Weapons-->
+
+  <entry id="plasGun2">
+    <name>Plasma Caliver</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="plasGun3">
+    <name>Plasma Fusil</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="plasHeavy2">
+    <name>Plasma Culverin</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Transuranic Weapons-->
+
+  <entry id="transGun">
+    <name>Transuranic Arquebus</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Radium Weapons-->
+
+  <entry id="radPistol">
+    <name>Radium Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="radGun">
+    <name>Radium Carbine</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="radGun2">
+    <name>Radium Jezzail</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="radHeavy">
+    <name>Radium Cleanser</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Phosphor Weapons-->
+
+  <entry id="phosPistol">
+    <name>Phosphor Blast Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="phosPistol2">
+    <name>Phosphor Serpenta</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="phosGun">
+    <name>Phosphor Blaster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="phosHeavy">
+    <name>Heavy Phosphor Blaster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>8</power>
+      <range>8</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Eradication Weapons-->
+  
+  <!--Gamma Weapons-->
+
+</root>

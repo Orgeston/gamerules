@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!--Gauss Weapons-->
+  
+  <entry id="gausspistol">
+    <name>Gauss Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>6</range>
+      <penetration>4</penetration>
+      <accuracy>4</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="gaussgun">
+    <name>Gauss Flayer</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>12</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="gaussgun2">
+    <name>Gauss Blaster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>16</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>40</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="gaussheavy1">
+    <name>Gauss Cannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>12</range>
+      <penetration>4</penetration>
+      <accuracy>4</accuracy>
+      <rate>4</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  <entry id="gaussheavy2">
+    <name>Heavy Gauss Cannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>32</range>
+      <penetration>4</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules></specialrules>
+    </rules>
+  </entry>
+  
+  <!--Heat Weapons-->
+  
+  <entry id="heatpistol">
+    <name>Heat Gun</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>6</range>
+      <penetration>2</penetration>
+      <accuracy>8</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>flame;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="heatgun">
+    <name>Thermal caster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>1</range>
+      <penetration>2</penetration>
+      <accuracy>8</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>2</hands>
+      <specialrules>flame;volatile;template;</specialrules>
+    </rules>
+  </entry>
+  <entry id="heatheavy">
+    <name>Thermal Cutter</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>1</range>
+      <penetration>3</penetration>
+      <accuracy>8</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>30</weight>
+      <hands>2</hands>
+      <specialrules>flame;volatile;template;</specialrules>
+    </rules>
+  </entry>
+  <entry id="heatheavy2">
+    <name>Heat Ray</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>4</power>
+      <range>1</range>
+      <penetration>3</penetration>
+      <accuracy>8</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>30</weight>
+      <hands>2</hands>
+      <specialrules>flame;volatile;template;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Particle Weapons-->
+  
+  <entry id="particlepistol">
+    <name>Particle Caster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>6</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="particlegun">
+    <name>Particle Caster</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>12</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="particleheavy">
+    <name>Particle Shredder</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>7</power>
+      <range>24</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Tesla Weapons-->
+
+  <entry id="teslapistol">
+    <name>Tesla Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>6</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="teslagun">
+    <name>Tesla Carbine</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>12</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="teslaheavy">
+    <name>Tesla Cannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>7</power>
+      <range>24</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Ray Weapons-->
+
+  <entry id="teslapistol">
+    <name>Tesla Pistol</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>6</range>
+      <penetration>8</penetration>
+      <accuracy>4</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>10</weight>
+      <hands>1</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="teslagun">
+    <name>Tesla Carbine</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>5</power>
+      <range>12</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>2</rate>
+      <duration>3</duration>
+      <weight>20</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  <entry id="teslaheavy">
+    <name>Tesla Cannon</name>
+    <cost>
+      <points>0</points>
+      <relic>0</relic>
+    </cost>
+    <rules>
+      <power>7</power>
+      <range>24</range>
+      <penetration>8</penetration>
+      <accuracy>5</accuracy>
+      <rate>1</rate>
+      <duration>3</duration>
+      <weight>35</weight>
+      <hands>2</hands>
+      <specialrules>overheat;volatile;</specialrules>
+    </rules>
+  </entry>
+  
+  <!--Transdimensional Weapons-->
+</root>
